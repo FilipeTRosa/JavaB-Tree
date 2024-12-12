@@ -14,7 +14,7 @@ class NoArvoreB implements Serializable {
         matriculas = new int[ordem - 1];
         nomes = new String[ordem - 1];
         filhos = new NoArvoreB[ordem];
-        numChaves = 0;
         folha = true;
+        numChaves = 0;
     }
 }
